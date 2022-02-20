@@ -7,16 +7,22 @@ font-family: 'Open Sans Condensed', sans-serif;
 
 */
 
-body 					{   background-color: #941e06;
-							background-repeat: repeat;	} 
+body {
+	background-color: #941e06;
+	background-repeat: repeat;
+}
 
-h1, h2, h3 				{ font-family: "Open Sans Condensed", 'Roboto Regular', 'Montserrat Regular', 							"Times New Roman", "PT Serif"; }
+h1, h2, h3 {
+	font-family: "Open Sans Condensed", 'Roboto Regular', 'Montserrat Regular', "Times New Roman", "PT Serif";
+}
 
-h1 						{	color: #000000;
-							font-size: 32px;
-							font-weight: bold;
-							margin-top: 0px;
-							margin-bottom: 0px; letter-spacing: 5px;	}
+h1 {
+	color: #000000;
+	font-size: 32px;
+	font-weight: bold;
+	margin-top: 0px;
+	margin-bottom: 0px; letter-spacing: 5px;
+}
 
 h2 						{	color: #000000;
 							font-size: 24px;
@@ -30,13 +36,13 @@ h3 						{	color: #000000;
 							margin-top: 0px;
 							margin-bottom: 0px;	}
 
-p 						{ font-family: 'Montserrat Regular', 'Open Sans', 'Roboto Regular', "PT Serif"; 
+p 						{ font-family: 'Montserrat Regular', 'Open Sans', 'Roboto Regular', "PT Serif";
 							line-height:1.5em; }
 
 table, tr, td 			{	outset #941e06;
-							border-collapse: collapse;
-							table-layout: fixed;
-							margin-bottom: 25px; 		}
+											border-collapse: collapse;
+											table-layout: fixed;
+											margin-bottom: 25px; 		}
 
 td 						{	font-family: 'OpenSans Regular', 'Roboto Regular', 'Montserrat Regular';
 							padding-right: 10px;
@@ -48,97 +54,102 @@ hr 						{ 	clear: both;	}
 
 
 
-/* Dropdown Button to pick authors */ 
-				.dropdown-button { 
-					background-color: #941e06; 
-					color: white; 
-					padding: 14px; 
-					font-size: 14px; 
-					border: none; } 
-				
-				.dropdown { 
-					position: relative; 
-					display: inline-block; 
-					margin-bottom: 25px; } 
+/* Dropdown Button to pick authors below */
+.dropdown-button {
+	background-color: #941e06;
+	color: white;
+	padding: 14px;
+	font-size: 14px;
+	border: none; }
 
-				/* Dropdown Content (Hidden by Default) */ 				
-				.dropdown-list { 
-					display: none; 
-					position: absolute; 
-					background-color: #f1f1f1; 
-					min-width: 150px; 
+.dropdown {
+	position: relative;
+	display: inline-block;
+margin-bottom: 25px; }
+
+	/* Dropdown Content (Hidden by Default) */
+.dropdown-list {
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 150px;
+	font-size: 14px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1; }
+
+	/* Links inside the dropdown */
+.dropdown-list a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	font-family: verdana; }
+
+	/* Change color of dropdown links on hover */
+.dropdown-list a:hover {
+	background-color: #ddd;	}
+
+	/* Show the dropdown list on hover */
+.dropdown:hover .dropdown-list {
+	display: block; }
+
+	/* Change the background color of the dropdown button when the dropdown list is shown */
+.dropdown:hover .dropdown-button {
+	background-color: #6666ff; }
+
+.dropdown-scrollbar	{
+	height: 300px;
+	overflow-x: hidden;
+	overflow-y: scroll;	}
+/* Dropdown Button to pick authors above */
+
+
+
+/* Dropdown Language Button */
+				.dropdown-button1 {
+					background-color: #941e06;
+					color: white;
+					padding: 14px;
 					font-size: 14px;
-					box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
-					z-index: 1; } 
+					border: none; }
+				.dropdown1 {
+					position: relative;
+					display: inline-block;
+					margin-bottom: 25px; }
 
-				/* Links inside the dropdown */ 
-				.dropdown-list a { 
-					color: black; 
-					padding: 12px 16px; 
-					text-decoration: none; 
-					display: block; 
-					font-family: verdana; } 
-
-				/* Change color of dropdown links on hover */ 
-				.dropdown-list a:hover { 
-					background-color: #ddd;	} 
-
-				/* Show the dropdown list on hover */ 
-				.dropdown:hover .dropdown-list { 
-					display: block; } 
-
-				/* Change the background color of the dropdown button when the dropdown list is shown */ 
-				.dropdown:hover .dropdown-button { 
-					background-color: #6666ff; } 
-
-				.dropdown-scrollbar
-				{	height: 300px;
-					overflow-x: hidden;
-					overflow-y: scroll;	}
-
-
-
-/* Dropdown Language Button */ 
-				.dropdown-button1 { 
-					background-color: #941e06; 
-					color: white; 
-					padding: 14px; 
-					font-size: 14px; 
-					border: none; } 
-				.dropdown1 { 
-					position: relative; 
-					display: inline-block; 
-					margin-bottom: 25px; } 
-
-				/* Dropdown Content (Hidden by Default) */ 
-				.dropdown-list1 { 
-					display: none; 
-					position: absolute; 
-					background-color: #f1f1f1; 
-					min-width: 92px; 
+				/* Dropdown Content (Hidden by Default) */
+				.dropdown-list1 {
+					display: none;
+					position: absolute;
+					background-color: #f1f1f1;
+					min-width: 92px;
 					font-size: 12px;
-					box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
-					z-index: 1; } 
+					box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+					z-index: 1; }
 
-				/* Links inside the dropdown */ 
-				.dropdown-list1 a { 
-					color: black; 
-					padding: 10px 10px; 
-					text-decoration: none; 
-					display: block; 
+				/* Links inside the dropdown */
+				.dropdown-list1 a {
+					color: black;
+					padding: 10px 10px;
+					text-decoration: none;
+					display: block;
 					font-family: verdana; }
 
-				/* Change color of dropdown links on hover */ 
-				.dropdown-list1 a:hover { 
+				/* Change color of dropdown links on hover */
+				.dropdown-list1 a:hover {
 					background-color: #ddd; }
 
-				/* Show the dropdown list on hover */ 
-				.dropdown1:hover .dropdown-list1 { 
+				/* Show the dropdown list on hover */
+				.dropdown1:hover .dropdown-list1 {
 					display: block; }
 
-				/* Change the background color of the dropdown button when the dropdown list is shown */ 
-				.dropdown1:hover .dropdown-button1 { 
-					background-color: #6666ff; } 
+				/* Change the background color of the dropdown button when the dropdown list is shown */
+				.dropdown1:hover .dropdown-button1 {
+					background-color: #6666ff; }
+
+
+
+
 
 
 /* ID Definitions (Text) */
@@ -158,23 +169,23 @@ hr 						{ 	clear: both;	}
 
 .title-author			{ clear:both; padding: 20px; }
 
-#title-birthday			{ clear:both; padding: 20px;	
+#title-birthday			{ clear:both; padding: 20px;
 							border-bottom: 3px double #941e06;	}
 
 #book-name				{ clear:both; padding:20px;	}
 
-#website-name			{ 	margin-bottom: 20px; 
-							clear: both; 
+#website-name			{ 	margin-bottom: 20px;
+							clear: both;
 							color: #c6461a;
 							font-size: 36px;
-							font-style: "palatino"; 
+							font-style: "palatino";
 							text-align: center; }
 
 
 
 /* ID Definitions (DIV) */
-#wrapper 				{ 	width:900px; margin:10px auto; 
-							background-color:#fff; 
+#wrapper 				{ 	width:900px; margin:10px auto;
+							background-color:#fff;
 							padding:0 40px; }
 
 #content-wrapper		{ clear: both; }
@@ -197,93 +208,165 @@ hr 						{ 	clear: both;	}
 							position: relative;
 							height: auto; }
 #left, #right 			{	position: absolute;
-							top: 0px; 
+							top: 0px;
 							bottom: 0px; }
-#left 					{	left: 0px; 
+#left 					{	left: 0px;
 							width: 550px; }
-#right 					{	right: 180px; 
+#right 					{	right: 180px;
 							width: 200px; }
 
 
 
 /* Top Navigation Definitions */
-.topnav					{   background-color: #190606;
-							font-size: 16px; 
-							margin-left: -40px;
-							margin-right: -40px; 
-							align-self: center;	} 	
+#menu {
+	background: #000000;
+	color: #FFF;
+	height: 32px;
+	border-radius: 0px;
+	margin-left: -40px;
+	margin-right: -40px;
+	padding-left: 160px;
+	padding-right: 160px;
+}
+#menu ul, #menu li {
+	margin: 0 auto;
+	padding: 0;
+	list-style: none;
+	align-content: center;
+	display: inline-flex;
+}
+#menu ul {
+	width: 100%;
+}
+#menu li {
+	float: left;
+	display: inline;
+	position: relative;
+}
+#menu a {
+	display: block;
+	line-height: 32px;
+	padding: 0 14px;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+#menu a.dropdown-arrow:after {
+	content: "\002B";
+	margin-left: 5px;
+}
+#menu li a:hover {
+	color: #941E06;
+	background: #FFFFFF;
+}
+#menu input {
+	display: none;
+	margin: 0;
+	padding: 0;
+	height: 32px;
+	width: 100%;
+	opacity: 0;
+	cursor: pointer
+}
+#menu label {
+	display: none;
+	line-height: 32px;
+	text-align: center;
+	position: absolute;
+	left: 35px
+}
+#menu label:before {
+	font-size: 1.6em;
+	content: "\2261";
+	margin-left: 20px;
+}
+#menu ul.sub-menus{
+	height: auto;
+	overflow: hidden;
+	width: 170px;
+	background: #878787;
+	position: absolute;
+	z-index: 99;
+	display: none;
+}
+#menu ul.sub-menus li {
+	display: block;
+	width: 100%;
+}
+#menu ul.sub-menus a {
+	color: #FFFFFF;
+	font-size: 16px;
+}
+#menu li:hover ul.sub-menus {
+	display: block
+}
+#menu ul.sub-menus a:hover{
+	background: #F2F2F2;
+	color: #444444;
+}
+@media screen and (max-width: 800px){
+	#menu {position:relative}
+	#menu ul {background:#111;position:absolute;top:100%;right:0;left:0;z-index:3;height:auto;display:none}
+	#menu ul.sub-menus {width:100%;position:static;}
+	#menu ul.sub-menus a {padding-left:30px;}
+	#menu li {display:block;float:none;width:auto;}
+	#menu input, #menu label {position:absolute;top:0;left:0;display:block}
+	#menu input {z-index:4}
+	#menu input:checked + label {color:white}
+	#menu input:checked + label:before {content:"\00d7"}
+	#menu input:checked ~ ul {display:block}
+}
+/* Top Navigation Definitions */
 
-/* Style the links inside the navigation bar */
-.topnav a 				{   clear: both; display: inline;
-						  	color: #f2f2f2;
-							text-align: center;
-							font-weight: bold;
-							align-content: center;
-							padding: 14px 14px;
-							text-decoration: none;
-							font-size: 16px; }
-
-/* Change the color of links on hover */
-.topnav a:hover 		{	  background-color: #ddd;
-								color: black;	}	
-.noHover				{  pointer-events: none; }				
-
-/* Add an active class to highlight the current page */
-.topnav a.active 		{	  background-color: #C28F19;
-							  color: white;			}
-
-#topnav					{ clear:both; }
-#topnav ul 				{ padding:5px; }
-#topnav ul li  			{ display:inline; list-style-type:none; 
-							margin:0 5px 0 0; }
 
 
 
-/* Dropdown Language Button in the Navigation bar */ 
-				.dropdown-button2 { 
-					background-color: #941e06; 
-					color: white; 
+/* Dropdown Language Button in the Navigation bar */
+				.dropdown-button2 {
+					background-color: #941e06;
+					color: white;
 
-					border: none; } 
+					border: none; }
 
-				.dropdown2 { 
-					position: relative; 
-					display: inline-block; } 
+				.dropdown2 {
+					position: relative;
+					display: inline-block; }
 
-				/* Dropdown Content (Hidden by Default) */ 
-				.dropdown-list2 { 
-					display: none; 
-					position: absolute; 
-					background-color: #f1f1f1; 
-					min-width: 92px; 
-					box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
-					z-index: 1; } 
+				/* Dropdown Content (Hidden by Default) */
+				.dropdown-list2 {
+					display: none;
+					position: absolute;
+					background-color: #f1f1f1;
+					min-width: 92px;
+					box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+					z-index: 1; }
 
-				/* Links inside the dropdown */ 
-				.dropdown-list2 a { 
-					color: black; 
-					text-decoration: none; 
-					display: block; 
+				/* Links inside the dropdown */
+				.dropdown-list2 a {
+					color: black;
+					text-decoration: none;
+					display: block;
 					font-family: auto; }
 
-				/* Change color of dropdown links on hover */ 
-				.dropdown-list2 a:hover { 
+				/* Change color of dropdown links on hover */
+				.dropdown-list2 a:hover {
 					background-color: #ddd; }
 
-				/* Show the dropdown list on hover */ 
-				.dropdown2:hover .dropdown-list2 { 
+				/* Show the dropdown list on hover */
+				.dropdown2:hover .dropdown-list2 {
 					display: block; }
 
-				/* Change the background color of the dropdown button when the dropdown list is shown */ 
-				.dropdown2:hover .dropdown-button2 { 
-					background-color: #6666ff; } 
+				/* Change the background color of the dropdown button when the dropdown list is shown */
+				.dropdown2:hover .dropdown-button2 {
+					background-color: #6666ff; }
 
 
 
 
 #bottomnav				{ 	clear: both; border-top: 3px double #941e06; }
 #bottomnav ul 			{ 	margin-top:25px; margin-bottom: 25px; }
-#bottomnav ul li  		{ 	display:inline; list-style-type:none; 
+#bottomnav ul li  		{ 	display:inline; list-style-type:none;
 								margin:0 10px 0 0;  }
 
 
