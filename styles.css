@@ -1,0 +1,361 @@
+/* CSS Document */
+
+body {
+	background-color: #941e06;
+	background-repeat: repeat;
+}
+
+h1, h2, h3 {
+	font-family: 'Rubik Mono One', sans-serif; 'Abril Fatface', cursive; 'Merriweather Sans', sans-serif;
+	'Merriweather', serif; 'Montserrat', sans-serif; 'Roboto Serif', sans-serif; 'Roboto Slab', serif;
+}
+
+h1 {
+	color: #000000;
+	font-size: 32px;
+	font-weight: bold;
+	margin-top: 0px;
+	margin-bottom: 0px; letter-spacing: 5px;
+}
+
+h2 {
+	color: #000000;
+	font-size: 24px;
+	font-weight: bold;
+	margin-top: 0px;
+	margin-bottom: 1px;
+}
+
+h3 {
+	color: #000000;
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+p {
+	font-family: 'Montserrat', sans-serif; 'Roboto Serif', sans-serif; 'Roboto Slab', serif;
+	'Merriweather Sans', sans-serif; 'Merriweather', serif;
+	font-size: 16px;
+	line-height:1.5em;
+}
+
+table, tr, td {
+	outset #941e06;
+	border-collapse: collapse;
+	table-layout: fixed;
+	margin-bottom: 25px;
+}
+
+td {
+	font-family: 'OpenSans Regular', 'Roboto Regular', 'Montserrat Regular';
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+hr {
+	clear: both;
+}
+
+/* Dropdown Button to pick authors below */
+.dropdown-button {
+	background-color: #941e06;
+	color: white;
+	padding: 14px;
+	font-size: 14px;
+	border: none; }
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+margin-bottom: 25px; }
+
+	/* Dropdown Content (Hidden by Default) */
+.dropdown-list {
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 150px;
+	font-size: 14px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1; }
+
+	/* Links inside the dropdown */
+.dropdown-list a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	font-family: verdana; }
+
+	/* Change color of dropdown links on hover */
+.dropdown-list a:hover {
+	background-color: #ddd;	}
+
+	/* Show the dropdown list on hover */
+.dropdown:hover .dropdown-list {
+	display: block; }
+
+	/* Change the background color of the dropdown button when the dropdown list is shown */
+.dropdown:hover .dropdown-button {
+	background-color: #6666ff; }
+
+.dropdown-scrollbar	{
+	height: 300px;
+	overflow-x: hidden;
+	overflow-y: scroll;	}
+/* Dropdown Button to pick authors above */
+
+/* Dropdown Language Button */
+				.dropdown-button1 {
+					background-color: #941e06;
+					color: white;
+					padding: 14px;
+					font-size: 14px;
+					border: none; }
+				.dropdown1 {
+					position: relative;
+					display: inline-block;
+					margin-bottom: 25px; }
+
+				/* Dropdown Content (Hidden by Default) */
+				.dropdown-list1 {
+					display: none;
+					position: absolute;
+					background-color: #f1f1f1;
+					min-width: 92px;
+					font-size: 12px;
+					box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+					z-index: 1; }
+
+				/* Links inside the dropdown */
+				.dropdown-list1 a {
+					color: black;
+					padding: 10px 10px;
+					text-decoration: none;
+					display: block;
+					font-family: verdana; }
+
+				/* Change color of dropdown links on hover */
+				.dropdown-list1 a:hover {
+					background-color: #ddd; }
+
+				/* Show the dropdown list on hover */
+				.dropdown1:hover .dropdown-list1 {
+					display: block; }
+
+				/* Change the background color of the dropdown button when the dropdown list is shown */
+				.dropdown1:hover .dropdown-button1 {
+					background-color: #6666ff; }
+/* Dropdown Language Button */
+
+/* Text Definitions */
+.verse {
+	font-size: 13px;
+}
+
+.chapter {
+	font-size: 14px;
+}
+
+.title {
+	display: inline; clear: both;
+}
+
+.backbuttontitle {
+	float: left; vertical-align: middle;
+}
+
+.forwardbuttontitle {
+	float: right; vertical-align: middle;
+}
+
+#title {
+	clear: both; padding: 20px;
+	border-top: 3px double #941e06;
+	border-bottom: 3px double #941e06;
+}
+#title-author {
+	clear:both;
+	padding: 20px;
+}
+#title-birthday {
+	clear:both; padding: 20px;
+	border-bottom: 3px double #941e06;
+}
+
+#book-name {
+	clear:both; padding:20px;
+}
+
+#website-name {
+	margin-bottom: 20px;
+	clear: both;
+	color: #c6461a;
+	font-size: 36px;
+	font-style: "palatino";
+	text-align: center;
+}
+/* Text Definitions */
+
+/* DIV Definitions */
+#wrapper 				{ 	width:900px; margin:10px auto;
+							background-color:#fff;
+							padding:0 40px; }
+
+#content-wrapper		{ clear: both; }
+
+#top					{ width: auto; height: auto; }
+
+#logo					{ float:left; margin: 15px 0 15px 0; position: relative; }
+
+#social-media			{ float:right; margin: 15px 0 15px 0; position: relative; }
+
+#social-media ul li 	{ display:inline; list-style-type:none;}
+
+#social-media p  		{ text-align:right;}
+
+#banner					{ margin-bottom: 25px; }
+
+#container 				{	clear: both;
+							position: relative;
+							height: auto; }
+#left, #right 			{	position: absolute;
+							top: 0px;
+							bottom: 0px; }
+#left 					{	left: 0px;
+							width: 550px; }
+#right 					{	right: 180px;
+							width: 200px; }
+/* DIV Definitions */
+
+/* Top Navigation Definitions */
+#menu {
+	background: #000000;
+	color: #FFF;
+	height: 32px;
+	border-radius: 0px;
+	margin-left: -40px;
+	margin-right: -40px;
+	padding-left: 160px;
+	padding-right: 160px;
+}
+#menu ul, #menu li {
+	margin: 0 auto;
+	padding: 0;
+	list-style: none;
+	align-content: center;
+	display: inline-flex;
+}
+#menu ul {
+	width: 100%;
+}
+#menu li {
+	float: left;
+	display: inline;
+	position: relative;
+}
+#menu a {
+	display: block;
+	line-height: 32px;
+	padding: 0 14px;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+#menu a.dropdown-arrow:after {
+	content: "\002B";
+	margin-left: 5px;
+}
+#menu li a:hover {
+	color: #941E06;
+	background: #FFFFFF;
+}
+#menu input {
+	display: none;
+	margin: 0;
+	padding: 0;
+	height: 32px;
+	width: 100%;
+	opacity: 0;
+	cursor: pointer
+}
+#menu label {
+	display: none;
+	line-height: 32px;
+	text-align: center;
+	position: absolute;
+	left: 35px
+}
+#menu label:before {
+	font-size: 1.6em;
+	content: "\2261";
+	margin-left: 20px;
+}
+#menu ul.sub-menus{
+	height: auto;
+	overflow: hidden;
+	width: 170px;
+	background: #878787;
+	position: absolute;
+	z-index: 99;
+	display: none;
+}
+#menu ul.sub-menus li {
+	display: block;
+	width: 100%;
+}
+#menu ul.sub-menus a {
+	color: #FFFFFF;
+	font-size: 16px;
+}
+#menu li:hover ul.sub-menus {
+	display: block
+}
+#menu ul.sub-menus a:hover{
+	background: #F2F2F2;
+	color: #444444;
+}
+#menu .active {
+	background: #F2F2F2;
+	color: #444444;
+}
+@media screen and (max-width: 800px){
+	#menu {position:relative}
+	#menu ul {background:#111;position:absolute;top:100%;right:0;left:0;z-index:3;height:auto;display:none}
+	#menu ul.sub-menus {width:100%;position:static;}
+	#menu ul.sub-menus a {padding-left:30px;}
+	#menu li {display:block;float:none;width:auto;}
+	#menu input, #menu label {position:absolute;top:0;left:0;display:block}
+	#menu input {z-index:4}
+	#menu input:checked + label {color:white}
+	#menu input:checked + label:before {content:"\00d7"}
+	#menu input:checked ~ ul {display:block}
+}
+/* Top Navigation Definitions */
+
+/* Sections Navigation in the books Definitions */
+#topnav {
+	clear:both;
+}
+#topnav ul {
+	padding:5px;
+}
+#topnav ul li {
+	display:inline; list-style-type:none;
+	margin:0 5px 0 0;
+}
+/* Sections Navigation in the books Definitions */
+
+#bottomnav				{ 	clear: both; border-top: 3px double #941e06; }
+#bottomnav ul 			{ 	margin-top:25px; margin-bottom: 25px; }
+#bottomnav ul li  		{ 	display:inline; list-style-type:none;
+								margin:0 10px 0 0;  }
+#bottomline				{ border-bottom: 3px double #941e06; }
+
+#footer					{ clear:both; padding:10px 0;
+							border-top: 3px double #941e06; }
