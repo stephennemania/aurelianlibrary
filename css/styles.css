@@ -1,19 +1,13 @@
 /* CSS Document */
 
-/*
-
-font-family: 'Open Sans', sans-serif;
-font-family: 'Open Sans Condensed', sans-serif;
-
-*/
-
 body {
 	background-color: #941e06;
 	background-repeat: repeat;
 }
 
 h1, h2, h3 {
-	font-family: "Open Sans Condensed", 'Roboto Regular', 'Montserrat Regular', "Times New Roman", "PT Serif";
+	font-family: 'Rubik Mono One', sans-serif; 'Abril Fatface', cursive; 'Merriweather Sans', sans-serif;
+	'Merriweather', serif; 'Montserrat', sans-serif; 'Roboto Serif', sans-serif; 'Roboto Slab', serif;
 }
 
 h1 {
@@ -24,35 +18,47 @@ h1 {
 	margin-bottom: 0px; letter-spacing: 5px;
 }
 
-h2 						{	color: #000000;
-							font-size: 24px;
-							font-weight: bold;
-							margin-top: 0px;
-							margin-bottom: 1px;	}
+h2 {
+	color: #000000;
+	font-size: 24px;
+	font-weight: bold;
+	margin-top: 0px;
+	margin-bottom: 1px;
+}
 
-h3 						{	color: #000000;
-							font-size: 18px;
-							font-weight: bold;
-							margin-top: 0px;
-							margin-bottom: 0px;	}
+h3 {
+	color: #000000;
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
 
-p 						{ font-family: 'Montserrat Regular', 'Open Sans', 'Roboto Regular', "PT Serif";
-							line-height:1.5em; }
+p {
+	font-family: 'Montserrat', sans-serif; 'Roboto Serif', sans-serif; 'Roboto Slab', serif;
+	'Merriweather Sans', sans-serif; 'Merriweather', serif;
+	font-size: 16px;
+	line-height:1.5em;
+}
 
-table, tr, td 			{	outset #941e06;
-											border-collapse: collapse;
-											table-layout: fixed;
-											margin-bottom: 25px; 		}
+table, tr, td {
+	outset #941e06;
+	border-collapse: collapse;
+	table-layout: fixed;
+	margin-bottom: 25px;
+}
 
-td 						{	font-family: 'OpenSans Regular', 'Roboto Regular', 'Montserrat Regular';
-							padding-right: 10px;
-							padding-left: 10px;
-							padding-top: 5px;
-							padding-bottom: 5px;		}
+td {
+	font-family: 'OpenSans Regular', 'Roboto Regular', 'Montserrat Regular';
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
 
-hr 						{ 	clear: both;	}
-
-
+hr {
+	clear: both;
+}
 
 /* Dropdown Button to pick authors below */
 .dropdown-button {
@@ -103,8 +109,6 @@ margin-bottom: 25px; }
 	overflow-y: scroll;	}
 /* Dropdown Button to pick authors above */
 
-
-
 /* Dropdown Language Button */
 				.dropdown-button1 {
 					background-color: #941e06;
@@ -146,44 +150,58 @@ margin-bottom: 25px; }
 				/* Change the background color of the dropdown button when the dropdown list is shown */
 				.dropdown1:hover .dropdown-button1 {
 					background-color: #6666ff; }
+/* Dropdown Language Button */
 
+/* Text Definitions */
+.verse {
+	font-size: 13px;
+}
 
+.chapter {
+	font-size: 14px;
+}
 
+.title {
+	display: inline; clear: both;
+}
 
+.backbuttontitle {
+	float: left; vertical-align: middle;
+}
 
+.forwardbuttontitle {
+	float: right; vertical-align: middle;
+}
 
-/* ID Definitions (Text) */
-.verse					{ font-size: 13px; }
+#title {
+	clear: both; padding: 20px;
+	border-top: 3px double #941e06;
+	border-bottom: 3px double #941e06;
+}
+#title-author {
+	clear:both;
+	padding: 20px;
+}
+#title-birthday {
+	clear:both; padding: 20px;
+	border-bottom: 3px double #941e06;
+}
 
-.chapter				{ font-size: 14px; }
+#book-name {
+	clear:both; padding:20px;
+}
 
-#title					{ 	clear: both; padding: 20px;
-							border-top: 3px double #941e06;
-							border-bottom: 3px double #941e06;	}
+#website-name {
+	margin-bottom: 20px;
+	clear: both;
+	color: #c6461a;
+	font-size: 36px;
+	font-style: "palatino";
+	text-align: center;
+}
+/* Text Definitions */
 
-
-.title					{ display: inline; clear: both;  }
-.backbuttontitle		{ float: left; vertical-align: middle; }
-.forwardbuttontitle		{ float: right; vertical-align: middle; }
-
-
-.title-author			{ clear:both; padding: 20px; }
-
-#title-birthday			{ clear:both; padding: 20px;
-							border-bottom: 3px double #941e06;	}
-
-#book-name				{ clear:both; padding:20px;	}
-
-#website-name			{ 	margin-bottom: 20px;
-							clear: both;
-							color: #c6461a;
-							font-size: 36px;
-							font-style: "palatino";
-							text-align: center; }
-
-
-
-/* ID Definitions (DIV) */
+/* DIV Definitions */
 #wrapper 				{ 	width:900px; margin:10px auto;
 							background-color:#fff;
 							padding:0 40px; }
@@ -202,8 +220,6 @@ margin-bottom: 25px; }
 
 #banner					{ margin-bottom: 25px; }
 
-
-
 #container 				{	clear: both;
 							position: relative;
 							height: auto; }
@@ -214,8 +230,7 @@ margin-bottom: 25px; }
 							width: 550px; }
 #right 					{	right: 180px;
 							width: 200px; }
-
-
+/* DIV Definitions */
 
 /* Top Navigation Definitions */
 #menu {
@@ -305,6 +320,10 @@ margin-bottom: 25px; }
 	background: #F2F2F2;
 	color: #444444;
 }
+#menu .active {
+	background: #F2F2F2;
+	color: #444444;
+}
 @media screen and (max-width: 800px){
 	#menu {position:relative}
 	#menu ul {background:#111;position:absolute;top:100%;right:0;left:0;z-index:3;height:auto;display:none}
@@ -319,61 +338,24 @@ margin-bottom: 25px; }
 }
 /* Top Navigation Definitions */
 
-
-
-
-/* Dropdown Language Button in the Navigation bar */
-				.dropdown-button2 {
-					background-color: #941e06;
-					color: white;
-
-					border: none; }
-
-				.dropdown2 {
-					position: relative;
-					display: inline-block; }
-
-				/* Dropdown Content (Hidden by Default) */
-				.dropdown-list2 {
-					display: none;
-					position: absolute;
-					background-color: #f1f1f1;
-					min-width: 92px;
-					box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-					z-index: 1; }
-
-				/* Links inside the dropdown */
-				.dropdown-list2 a {
-					color: black;
-					text-decoration: none;
-					display: block;
-					font-family: auto; }
-
-				/* Change color of dropdown links on hover */
-				.dropdown-list2 a:hover {
-					background-color: #ddd; }
-
-				/* Show the dropdown list on hover */
-				.dropdown2:hover .dropdown-list2 {
-					display: block; }
-
-				/* Change the background color of the dropdown button when the dropdown list is shown */
-				.dropdown2:hover .dropdown-button2 {
-					background-color: #6666ff; }
-
-
-
+/* Sections Navigation in the books Definitions */
+#topnav {
+	clear:both;
+}
+#topnav ul {
+	padding:5px;
+}
+#topnav ul li {
+	display:inline; list-style-type:none;
+	margin:0 5px 0 0;
+}
+/* Sections Navigation in the books Definitions */
 
 #bottomnav				{ 	clear: both; border-top: 3px double #941e06; }
 #bottomnav ul 			{ 	margin-top:25px; margin-bottom: 25px; }
 #bottomnav ul li  		{ 	display:inline; list-style-type:none;
 								margin:0 10px 0 0;  }
-
-
-
-
 #bottomline				{ border-bottom: 3px double #941e06; }
-
 
 #footer					{ clear:both; padding:10px 0;
 							border-top: 3px double #941e06; }
