@@ -202,34 +202,64 @@ margin-bottom: 25px; }
 /* Text Definitions */
 
 /* DIV Definitions */
-#wrapper 				{ 	width:900px; margin:10px auto;
-							background-color:#fff;
-							padding:0 40px; }
+#wrapper {
+	width:900px; margin:10px auto;
+	background-color:#fff;
+	padding:0 40px;
+}
 
-#content-wrapper		{ clear: both; }
+#content-wrapper {
+	clear: both;
+}
 
-#top					{ width: auto; height: auto; }
+#top {
+	width: auto;
+	height: auto;
+}
 
-#logo					{ float:left; margin: 15px 0 15px 0; position: relative; }
+#logo {
+	float:left;
+	margin: 15px 0 15px 0;
+	position: relative;
+}
 
-#social-media			{ float:right; margin: 15px 0 15px 0; position: relative; }
+#social-media {
+	float:right;
+	margin: 15px 0 15px 0;
+	position: relative;
+}
 
-#social-media ul li 	{ display:inline; list-style-type:none;}
+#social-media ul li {
+	display:inline;
+	list-style-type:none;
+}
 
-#social-media p  		{ text-align:right;}
+#social-media p {
+	text-align:right;
+}
 
-#banner					{ margin-bottom: 25px; }
+#banner {
+	margin-bottom: 25px;
+}
 
-#container 				{	clear: both;
-							position: relative;
-							height: auto; }
-#left, #right 			{	position: absolute;
-							top: 0px;
-							bottom: 0px; }
-#left 					{	left: 0px;
-							width: 550px; }
-#right 					{	right: 180px;
-							width: 200px; }
+#container {
+	clear: both;
+	position: relative;
+	height: auto;
+}
+#left, #right {
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+}
+#left {
+	left: 0px;
+	width: 550px;
+}
+#right {
+	right: 180px;
+	width: 200px;
+}
 /* DIV Definitions */
 
 /* Top Navigation Definitions */
@@ -322,7 +352,7 @@ margin-bottom: 25px; }
 }
 #menu .active {
 	background: #F2F2F2;
-	color: #444444;
+	color: black;
 }
 @media screen and (max-width: 800px){
 	#menu {position:relative}
@@ -351,11 +381,139 @@ margin-bottom: 25px; }
 }
 /* Sections Navigation in the books Definitions */
 
-#bottomnav				{ 	clear: both; border-top: 3px double #941e06; }
-#bottomnav ul 			{ 	margin-top:25px; margin-bottom: 25px; }
-#bottomnav ul li  		{ 	display:inline; list-style-type:none;
-								margin:0 10px 0 0;  }
-#bottomline				{ border-bottom: 3px double #941e06; }
+/* Bottom Navigation Definitions */
+#bottomnav {
+	background: #000000;
+	color: #FFF;
+	height: 32px;
+	border-radius: 0px;
+	padding-left: 160px;
+	padding-right: 160px;
+	margin-top: 20px;
+	margin-bottom: 25px;
+}
+#bottomnav ul, #bottomnav li {
+	margin: 0 auto;
+	padding: 0;
+	list-style: none;
+	align-content: center;
+	display: inline-flex;
+}
+#bottomnav ul {
+	width: 100%;
+}
+#bottomnav li {
+	float: left;
+	display: inline;
+	position: relative;
+}
+#bottomnav a {
+	display: block;
+	line-height: 32px;
+	padding: 0 14px;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+#bottomnav a.dropdown-arrow:after {
+	content: "\002B";
+	margin-left: 5px;
+}
+#bottomnav li a:hover {
+	color: #941E06;
+	background: #FFFFFF;
+}
+#bottomnav input {
+	display: none;
+	margin: 0;
+	padding: 0;
+	height: 32px;
+	width: 100%;
+	opacity: 0;
+	cursor: pointer
+}
+#bottomnav label {
+	display: none;
+	line-height: 32px;
+	text-align: center;
+	position: absolute;
+	left: 35px
+}
+#bottomnav label:before {
+	font-size: 1.6em;
+	content: "\2261";
+	margin-left: 20px;
+}
+#bottomnav ul.sub-menus{
+	height: auto;
+	overflow: hidden;
+	width: 170px;
+	background: #878787;
+	position: absolute;
+	z-index: 99;
+	display: none;
+}
+#bottomnav ul.sub-menus li {
+	display: block;
+	width: 100%;
+}
+#bottomnav ul.sub-menus a {
+	color: #FFFFFF;
+	font-size: 16px;
+}
+#bottomnav li:hover ul.sub-menus {
+	display: block
+}
+#bottomnav ul.sub-menus a:hover{
+	background: #F2F2F2;
+	color: #444444;
+}
+#bottomnav .bottomnav-active {
+	background: #F2F2F2;
+	color: black;
+}
+@media screen and (max-width: 800px){
+	#bottomnav {position:relative}
+	#bottomnav ul {background:#111;position:absolute;top:100%;right:0;left:0;z-index:3;height:auto;display:none}
+	#bottomnav ul.sub-menus {width:100%;position:static;}
+	#bottomnav ul.sub-menus a {padding-left:30px;}
+	#bottomnav li {display:block;float:none;width:auto;}
+	#bottomnav input, #bottomnav label {position:absolute;top:0;left:0;display:block}
+	#bottomnav input {z-index:4}
+	#bottomnav input:checked + label {color:white}
+	#bottomnav input:checked + label:before {content:"\00d7"}
+	#bottomnav input:checked ~ ul {display:block}
+}
+/* Bottom Navigation Definitions */
 
-#footer					{ clear:both; padding:10px 0;
-							border-top: 3px double #941e06; }
+#bottomline {
+	border-bottom: 3px double #941e06;
+}
+
+#footer {
+	clear:both; padding: 10px 0;
+	border-top: 3px double #941e06;
+}
+
+/*SCROLL BUTTON*/
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 61px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: white; /* Set a background color */
+  color: black; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+#myBtn:hover {
+  background-color: black; /* Add a black background on hover */
+	color: white; /* Add a white test color on hover */
+}
+/*SCROLL BUTTON*/
