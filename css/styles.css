@@ -517,3 +517,49 @@ margin-bottom: 25px; }
 	color: white; /* Add a white test color on hover */
 }
 /*SCROLL BUTTON*/
+
+/*DONATE BUTTON*/
+.bitcoin-font {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: bold;
+	font-style: italic;
+	line-height: 2;
+}
+.donate-btn {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: 'Merriweather', serif; Open Sans;
+   font-size: 18px;
+   font-weight: 100;
+   padding: 10px;
+   background-color: #E98A0A;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #000000 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+	 position: fixed; /* Fixed/sticky position */
+	 z-index: 999;
+	 top: 60px; /* Place the button at the bottom of the page */
+	 right: 28px; /* Place the button 30px from the right */
+}
+.donate-btn:hover {
+ border: solid #000000 1px;
+   background: #1E62D0;
+   background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+/*DONATE BUTTON*/
