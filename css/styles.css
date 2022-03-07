@@ -380,13 +380,42 @@ margin-bottom: 25px; }
 /* Sections Navigation in the books Definitions */
 #topnav {
 	clear:both;
+	padding: 0 50px 0 50px;
 }
 #topnav ul {
-	padding:5px;
+	padding: 5px;
 }
 #topnav ul li {
 	display:inline; list-style-type:none;
-	margin:0 5px 0 0;
+	margin: 0 10px 0 0;
+}
+.underline{
+position: relative;
+text-transform:uppercase;
+letter-spacing: 0.1em;
+font-size: 16px;
+color: #222;
+text-decoration:none;
+font-family: sans-serif;
+line-height: 1.5;
+cursor: none;
+}
+.underline::after{
+left:0;
+right:0;
+content: "";
+position: absolute;
+height: 2px;
+background: red;
+bottom: -4px;
+transform: scale(0,1);
+transform-origin: 100% 50%;
+transition: transform .5s ease;
+}
+
+.underline:hover::after{
+transform: scale(1,1);
+transform-origin: 0% 50%;
 }
 /* Sections Navigation in the books Definitions */
 
