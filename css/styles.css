@@ -41,11 +41,15 @@ p {
 	line-height:1.5em;
 }
 
+table {
+	width: auto;
+}
+
 table, tr, td {
 	outset #941e06;
 	border-collapse: collapse;
 	table-layout: fixed;
-	margin-bottom: 25px;
+	margin-bottom: 25px
 }
 
 td {
@@ -158,7 +162,7 @@ margin-bottom: 25px; }
 }
 
 .chapter {
-	font-size: 14px;
+	font-size: 16px;
 }
 
 /* Text Definitions */
@@ -167,11 +171,11 @@ margin-bottom: 25px; }
 }
 
 #chapter {
-	font-size: 14px;
+	font-size: 16px;
 }
 
 .title {
-	display: inline; clear: both;
+	display: block;	clear: both;
 }
 
 .backbuttontitle {
@@ -212,9 +216,10 @@ margin-bottom: 25px; }
 
 /* DIV Definitions */
 #wrapper {
-	width:900px; margin:10px auto;
+	width:80%; margin:10px auto;
 	background-color:#fff;
 	padding:0 40px;
+	clear: both;
 }
 
 #content-wrapper {
@@ -249,6 +254,12 @@ margin-bottom: 25px; }
 
 #banner {
 	margin-bottom: 25px;
+	vertical-align:middle; text-align:center;
+}
+
+#banner img {
+  width: 100%;
+  height: auto;
 }
 
 #container {
@@ -538,21 +549,21 @@ transform-origin: 0% 50%;
 #myBtn {
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
-  bottom: 20px; /* Place the button at the bottom of the page */
-  right: 61px; /* Place the button 30px from the right */
+  bottom: 10px; /* Place the button at the bottom of the page */
+  right: 10px; /* Place the button 30px from the right */
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
-  background-color: white; /* Set a background color */
-  color: black; /* Text color */
+  background-color: black; /* Set a background color */
+  color: white; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 15px; /* Some padding */
   border-radius: 10px; /* Rounded corners */
   font-size: 18px; /* Increase font size */
 }
 #myBtn:hover {
-  background-color: black; /* Add a black background on hover */
-	color: white; /* Add a white test color on hover */
+  background-color: #ffd700; /* Add a #ffd700 background on hover */
+	color: black; /* Add a black test color on hover */
 }
 /*SCROLL BUTTON*/
 
@@ -569,7 +580,7 @@ transform-origin: 0% 50%;
    border-radius: 20px;
    color: #FFFFFF;
    font-family: 'Merriweather', serif; Open Sans;
-   font-size: 18px;
+   font-size: 12px;
    font-weight: 100;
    padding: 10px;
    background-color: #E98A0A;
@@ -584,8 +595,8 @@ transform-origin: 0% 50%;
    text-align: center;
 	 position: fixed; /* Fixed/sticky position */
 	 z-index: 999;
-	 top: 60px; /* Place the button at the bottom of the page */
-	 right: 28px; /* Place the button 30px from the right */
+	 top: 165px; /* Place the button at the bottom of the page */
+	 right: 5px; /* Place the button 30px from the right */
 }
 .donate-btn:hover {
  border: solid #000000 1px;
