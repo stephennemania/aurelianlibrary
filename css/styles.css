@@ -178,6 +178,10 @@ margin-bottom: 25px; }
 	display: block;	clear: both;
 }
 
+.title table {
+	width: 90%;
+}
+
 .backbuttontitle {
 	float: left; vertical-align: middle;
 }
